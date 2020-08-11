@@ -1,0 +1,227 @@
+/*
+* @Author: Jinna
+* @Date:   2016-05-04 00:38:45
+* @Last Modified by:   Jinna
+* @Last Modified time: 2016-07-02 14:15:45
+*/
+body {
+	font-family: sans-serif;
+	font-size: small;
+	line-height: 1.5em;
+	width:1000px;
+	margin: auto;
+	padding: 10px;
+}
+
+header#header{
+	font-weight: bold;
+	color: #EE6AA7;
+	padding: 10px 10px 0px 15px;
+	/*background-color: #FFC0CB;*/
+	/*border: #FFC0CB 1px solid;*/
+	border-radius: 2em;
+	margin-bottom: 10px
+}
+
+ul li a:link,ul li a:visited{
+	text-decoration: none;
+}
+
+
+nav#mainNav ul{
+	background-color: #FFC0CB;
+	padding: 10px 0px 10px 0px;
+	list-style-type: none;
+}
+
+nav#mainNav ul li{
+	font-family: cursive;
+	display: inline;
+	padding: 15px;
+}
+
+nav#mainNav ul li a:link,nav#mainNav ul li a:visited{
+	font-weight: bolder;
+	font-size: 1.5em;
+	color:#696969;
+}
+
+nav#mainNav ul li.selectedPage{
+	background-color: white;
+}
+
+div#blogContainer{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+div#mainContainer{
+	padding: 1%;
+	margin-right: 26%;
+	border: #FFC0CB 2px dotted;
+	border-radius: 2em;
+}
+
+
+
+div#selfintro{
+	padding: 1%;
+	margin-right: 26%;
+	border: #FFC0CB 2px dotted;
+	border-radius: 2em;
+}
+
+section.diarySection {
+	padding: 15px 10px 5px 10px;
+	margin: 0px 15px 0px 15px;
+	border-bottom: #C9C9C9 1px dashed; 
+}
+
+section.diarySection header {
+	font-size: 1.2em;
+	font-weight: bold;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+	padding: 5px 5px 10px 10px;
+	background-color: #D4D4D4;
+}
+section.diarySection img{
+	padding: 5px;
+	width: 30%;
+	margin: 0px auto 0px auto;
+}
+section.diarySection p{
+	text-indent: 2em;
+}
+
+
+div#mypic{
+	padding: 5px;
+	width: 50%;
+	margin: 0px auto 0px auto;
+}
+
+p#more {
+	text-align: right;
+}
+
+ul#ListPage{
+	padding: 10px 0px 10px 0px;
+	width: 100px;
+	margin: auto;
+	list-style-type: none;
+}
+
+ul#ListPage li{
+	font-size: 1.2em;
+	font-family: cursive;
+	display: inline;
+	padding: 0px 5px 0px 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+ul#ListPage li:nth-child(2n){
+	background-color: #FFC0CB;
+}
+ul#ListPage li:nth-child(2n+1){
+	background-color: #D4D4D4;
+}
+
+ul#diaryList{
+	list-style-type: none;
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 10px;
+}
+ul#diaryList li a:link,ul#diaryList li a:visited{
+	color: black;
+}
+ul#diaryList li{
+	padding: 10px;
+	margin-bottom: 10px;	
+}
+ul#diaryList li:nth-child(1){
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+}
+ul#diaryList li:nth-last-child(1){
+	border-bottom-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+ul#diaryList li:nth-child(2n){
+	background-color: #FFC0CB;
+}
+ul#diaryList li:nth-child(2n+1){
+	background-color: #D4D4D4;
+}
+div.diaryBoard{
+	font-size: small;
+	text-indent: 2em;
+}
+div.diaryBoard img{
+	display: block;
+	padding: 5px;
+	width: 50%;
+	margin: 0px auto 0px auto;
+}
+table#photoTable{
+	width: 100%;
+	border-spacing: 5px;
+}
+table#photoTable td{
+	border: #D4D4D4 3px dashed;
+
+}
+div.photoBlock{
+	font-family: cursive;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+div#sideBar{
+	width: 250px;
+	float: right;
+	margin-left: 1%;
+}
+div#musicblock audio{
+	width: 150px;
+}
+
+div.sideBlock{
+	background-color: #D4D4D4;
+	border: white 3px dashed;
+	padding: 5%;
+	text-align: center;
+}
+
+div#selfIntro{
+	font-weight: bolder;
+}
+
+div#articleType,div#photoType{
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+div#articleType ul li a:link,div#articleType ul li a:visited,div#photoType ul li a:link,div#photoType ul li a:visited{
+	color:black;
+}
+div#articleType ul li,div#photoType ul li{
+	text-align: left;
+	padding: 5px;
+}
+
+
+
+footer#footer{
+	padding: 10px;
+	background-color: #C9C9C9;
+	border: #C9C9C9 1px solid;
+	border-radius: 2em;
+	margin-top: 10px;
+	clear: right;
+	text-align: center;
+	font-weight: bold;
+}
