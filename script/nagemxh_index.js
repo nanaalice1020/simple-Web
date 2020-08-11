@@ -84,7 +84,7 @@ function choosenNav(choosenPage) { //选中导航栏添加选中类
 
 function loadIndexPage(responseText) { //主页显示近期日志
 	$("div#mainContainer").append("<div id=\"mypic\"></div>");
-	$("div#mypic").append("<a href=\"imgs/nana.jpg\" target=\"_blank\"><img src=\"imgs/nana_low.jpg\"  width=100%></img></a>");
+	$("div#mypic").append("<a href=\"imgs/nana2.jpg\" target=\"_blank\"><img src=\"imgs/nana2.jpg\"  width=100%></img></a>");
 	$("div#mainContainer").append("<h3>Education</h3>");
 	$("div#mainContainer").append("<p>Visting Ph.D supported by CSC (November 2019 - ), Dept. of Electrical & Computer Engineering, University of Victoria, Victoria, Canada</p>");
 	$("div#mainContainer").append("<p>Doctor of Philosophy (July 2015 - ), Information and Communication Engineering, Xidian University, Xi'an, China</p>");
